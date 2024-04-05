@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+    padding: 0;
+	background-image: url(IMG-20231219-WA0002.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.box {
+	border-radius: 10%;
+	width: auto;
+	height: auto;
+	margin: 15px;
+}
+
+#first {
+	background: #0e0c0c;
+    float: left;
+	
+}
+#second {
+	margin-left: 60px;
+	background: rgb(187, 187, 223);
+    float: left;
+	text-align: center;
+}
+#list2{
+	float: left;
+}
+
+.box img{
+    border-radius: 50%;
+    margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 10px;
+    width: 250;
+    height: 250;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    
+}
+
+.box img:hover{
+    transform: scale(2) translate(-100px,100px);
+    
+}
